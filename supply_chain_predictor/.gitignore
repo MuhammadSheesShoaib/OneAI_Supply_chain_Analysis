@@ -1,0 +1,90 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+*.env
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+
+# =====================
+# Jupyter / Notebooks
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# ML / Prophet artifacts
+# =====================
+models/
+checkpoints/
+*.pkl
+*.joblib
+
+# =====================
+# Data (keep raw data out of git)
+# =====================
+data/
+datasets/
+*.csv
+*.parquet
+
+# =====================
+# Cache
+# =====================
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# API keys / credentials
+# =====================
+credentials/
+secrets/
+
+# =====================
+# Build / dist
+# =====================
+build/
+dist/
+*.egg-info/
+
+# =====================
+# Docker
+# =====================
+.env.docker
+docker-data/
+
+# =====================
+# Test coverage
+# =====================
+.coverage
+htmlcov/
