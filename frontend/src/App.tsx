@@ -203,7 +203,16 @@ export default function App() {
               exit={{ opacity: 0 }}
               className="bg-white rounded-lg shadow-md p-12 flex flex-col items-center justify-center gap-4"
             >
-              <Loader2 className="w-12 h-12 text-[#1769FF] animate-spin" />
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{
+                  duration: 1,
+                  repeat: Infinity,
+                  ease: "linear"
+                }}
+              >
+                <Loader2 className="w-12 h-12 text-[#1769FF]" />
+              </motion.div>
               <div className="text-center">
                 <p className="text-xl text-gray-700">Running Analysis...</p>
                 <p className="text-gray-500 mt-1">

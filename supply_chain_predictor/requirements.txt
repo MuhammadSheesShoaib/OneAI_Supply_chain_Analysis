@@ -26,3 +26,6 @@ holidays==0.40
 # Utility packages
 httpx==0.26.0
 
+# Optional: Plotting (suppresses Prophet's plotly warning)
+plotly==5.18.0
+
