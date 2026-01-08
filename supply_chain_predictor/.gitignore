@@ -31,7 +31,10 @@ logs/
 # =====================
 # ML / Prophet artifacts
 # =====================
-models/
+# Ignore model artifacts but allow source code
+models/*.pkl
+models/*.joblib
+models/checkpoints/
 checkpoints/
 *.pkl
 *.joblib
